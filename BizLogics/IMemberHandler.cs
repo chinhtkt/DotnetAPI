@@ -11,7 +11,6 @@ namespace DotnetAPI.BizLogics
         //Return a list of members who is Male
         List<Member> ListAllMaleMembers(string gender);
 
-        
         //Return the oldest one based on “Age”
         Member ReturnTheOldestMember();
         //Return a new list that contains Full Name 

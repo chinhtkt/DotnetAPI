@@ -52,7 +52,7 @@ namespace DotnetAPI.BizLogics
 
         public List<string> GetMembersWithFullNameOnly()
         {
-            var result = _listMembers.Select(x => $"{x.FirstName + x.LastName}").ToList();
+            var result = _listMembers.Select(x => $"{x.FirstName + ' ' + x.LastName}").ToList();
             return result;
         }
 
